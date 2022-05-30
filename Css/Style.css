@@ -286,17 +286,35 @@ p {
 }
 
 .prof{
-    width: 33%;
-    height: 400px;
+    height: 400px ;
     background: rgb(103, 178, 248);
     margin: 0 auto ;
 
 }
+.prof1{
+    width: 25%;
+    background-image: url(../image/sliderweb.PNG);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
 
-.prof2{
-    background: rgb(248, 127, 127);
+}
+.btn-prof1{
+    margin:8 auto;
+    background: #69B6FF;
+    border: none;
+
 }
 
+.prof2{
+    width: 40%;
+    background: rgb(248, 127, 127);
+
+}
+.prof3{
+    width: 30%;
+
+}
 
 /* contactme */
 .contact-me{
@@ -352,6 +370,21 @@ footer{
 .app-click{
     transition: 2s;
     display: none;
+}
+
+
+
+
+/* font updating */
+.updating{
+    text-align: center;
+    margin-top: 180;
+    font-size: 3rem;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    
+    
+
 }
 
 

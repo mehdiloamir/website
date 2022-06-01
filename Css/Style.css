@@ -375,7 +375,10 @@ footer{
 .footer-link{
 text-align: center;
 }
-
+.footer-icon-1:hover{
+    background-color: #000000;
+    border-radius: 10px;
+}
 
 
 /* font updating */
